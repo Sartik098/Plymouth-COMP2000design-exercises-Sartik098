@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reservation Details"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <!-- Guest name -->
+        <TextView
+            android:id="@+id/tvGuestName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guest: John Doe"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Date and time -->
+        <TextView
+            android:id="@+id/tvDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: 2025-12-12 19:00"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Party size -->
+        <TextView
+            android:id="@+id/tvPartySize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Party Size: 2"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Confirm button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Reservation"
+            android:layout_marginTop="24dp"/>
+
+        <!-- Cancel button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Reservation"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
